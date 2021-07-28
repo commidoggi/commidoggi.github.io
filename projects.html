@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Projects</title>
+</head>
+<body>
+    <header>
+        <h1>Cameron McKay's Blog</h1>
+        <h4>My internet real estate</h4>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#">Projects</a>
+        <a href="other.html">Other</a>
+    </nav>
+    <main>
+        <h3>PySong</h3>
+        <hr>
+        <p>
+            This was developed as my final project for my Python 3 course
+            at Ogden Weber Tech College.  It uses tkinter as it's GUI framework,
+            mutagen for ID3 tag management(song metadata), and FFMPEG for file 
+            conversion for MP3.  I wasn't happy with existing conversion and tagging
+            tools so I made my own that combined both.
+            <br>
+            Source code for the project can be found <a href="https://github.com/commidoggi/PySong">here.</a>
+        </p>
+        <img src="img/pysong.png" alt="Screenshot of PySong.">
+        <h3>Dungeon Game</h3>
+        <hr>
+        <p>
+            This is a simple game I made for my capstone project for the Software
+            Technology program.  It is very unpolished and doesn't have menus, as it
+            was made to improve my GD Script skills and experiment with simple procedural generation.
+            Rooms were made using a custom tilemap exporter for Godot, and then the game would
+            load in random rooms from the game files during runtime to generate the world.  Some optimization
+            was done to increase performance once worlds became large, but there are still many bugs with the system.
+            Also the avatar features a png of the rapper Drake because Godot would refuse to compile the game
+            if it wasn't present in the files and visible.  I learned a lot about tilemaps and vector math from this project
+            and hope to experiment with Godot more in the future.
+            <br>
+            A download of the game can be found <a href="downloads/Game.zip">here.</a>
+        </p>
+        <img src="img/godot_editor.PNG" alt="Screenshot from the Godot editor.">
+        <img src="img/game_screenshot.png" alt="Screenshot of game.">
+    </main>
+    <footer>
+        <p>&copy;2021</p>
+    </footer>
+</body>
+</html>

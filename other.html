@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Other</title>
+</head>
+<body>
+    <header>
+        <h1>Cameron McKay's Blog</h1>
+        <h4>My internet real estate</h4>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="#">Other</a>
+    </nav>
+    <main>
+        <h3>Audio Equipment and Records</h3>
+        <hr>
+        <p>
+            I inherited this old JVC stero system from my grandparents, and it has been a 
+            great starter setup.  It didn't come with a turntable, but I bought an Audio Technica
+            LP60x to go with it.  I'm hoping to upgrade soon, and I have an extra Akai stereo I found at
+            a garage sale that has yet to be tested.  It needs new belts for the cassette deck and turntable,
+            but it should be finished soon.  A few of my favorite records are Loveless - My Bloody Valentine, 
+            Little Dark Age - MGMT, and Wildflower - The Avalanches.  
+        </p>
+        <div class="lightbox">
+            <img src="img/stereo.jpg" alt="My jvc stereo system.">
+            <img src="img/records.jpg" alt="My favorite records.">
+        </div>
+        <h3>Motorcycyle</h3>
+        <h5>Honda XL250S</h5>
+        <hr>
+        <p>
+            When I got this bike from my uncle, it was torn apart and needed to be almost completely rewired.
+            It took me about a months worth of work (about 80 hours) to get this bike running but it has been worth
+            every second.  There is a small oil leak still though, and I'm planning to do a top end engine rebuild
+            in the winter.  I just want to be able to enjoy the bike while there is still good weather.
+        </p>
+        <div class="lightbox">
+            <img src="img/bike_before1.jpg" alt="How I recieved the motorcycle.">
+            <img src="img/bike_before2.jpg" alt="Early work on the motorcycle.">
+            <img src="img/bike_finished1.jpg" alt="Motorcyle after electrical work was finished.">
+            <img src="img/bike_finished2.jpg" alt="My motorcycle next to my dad's Honda XR350.">
+        </div>
+        <h3>Computer</h3>
+        <hr>
+        <p>I originally built this computer when I was 16, but I've continued to upgrade it enough so it
+            always feels new.  
+        </p>
+        <h4>Specifications:</h4>
+        <ul>
+            <li>Ryzen 5 2500</li>
+            <li>16GB DDR4 Memory</li>
+            <li>Nvidia RTX 2060 6GB</li>
+            <li>512GB SSD</li>
+            <li>1TB HDD</li>
+        </ul>
+        <p>Not bad considering I only play Fallout New Vegas and Minecraft.</p>
+        <div>
+            <img src="img/computer.jpg" alt="My custom built computer.">
+        </div>
+    </main>
+    <footer>
+        <p>&copy;2021</p>
+    </footer>
+    <!--Image carousel work in progres: 
+    
+    <div id="hidden_box">
+        <img id="main_img">
+        <div id="thumbails">
+
+        </div>
+    </div>
+    -->
+</body>
+
+<script>
+    /*
+    // Get image groups and add event listeners with index
+    var lightbox = document.getElementById("hidden_box")
+    var lightboxes = document.getElementsByClassName("lightbox");
+    var thumbnail_div = document.getElementById("thumbnails");
+    var current_image = document.getElementById("main_img")
+    var current_img_num = 0;
+    var total_img_num = 0;
+    var images = [];
+
+    // Load lightbox with images
+    load_lightbox = function(index) {
+        thumbnail_div.remove();
+        thumbnail_div = lightbox.appendChild(document.createElement("div"));
+        images = lightboxes[index].childNodes;
+        total_img_num = images.length
+        for (i = 0; i < current_image_num; i++) {
+            var element = thumbnail_div.appendChild(images[i]);
+            element.addEventListener("click", set_current_image(i))
+        }
+        set_current_image(0)
+        lightbox.style.display = "block"
+    }
+    // Sets current main image of lightbox
+    set_current_image = function(index) {
+        current_img_num = index + 1;
+        current_image.src = images[index].src;
+    }
+
+    for (let i = 0; i < lightboxes.length; i++) {
+        lightboxes[i].addEventListener("click", load_lightbox(i));
+    };
+    */escape
+</script>
+</html>
